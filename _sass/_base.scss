@@ -175,7 +175,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: rgba(white, .7);
+                color: rgba(white, .99);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
@@ -219,6 +219,9 @@ header {
     }
     p {
         margin-bottom: 0;
+    }
+    .fab {
+        color: $theme-primary;
     }
 }
 
@@ -316,7 +319,7 @@ header {
 }
 
 // Contact
-#contact .fa {
+#contact .fas, .fab {
     color: $theme-dark;
     font-size: 4em;
 }
